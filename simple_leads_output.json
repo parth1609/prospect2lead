@@ -1,0 +1,342 @@
+{
+  "leads": [
+    {
+      "id": 1,
+      "company": "TechFlow",
+      "contact_name": "Sarah Johnson",
+      "email": "sarah.johnson@techflow.com",
+      "domain": "techflow.com",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "recent_funding",
+      "score": 3.46,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "company": "DataVault Inc",
+      "contact_name": "Mike Chen",
+      "email": "mike.chen@datavault.io",
+      "domain": "datavault.io",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "recent_funding",
+      "score": 3.46,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "company": "Scaleforce.ai",
+      "contact_name": "David Kim",
+      "email": "david.kim@scaleforce.ai",
+      "domain": "scaleforce.ai",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "recent_funding",
+      "score": 3.46,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "company": "Growth Engine",
+      "contact_name": "Amanda Foster",
+      "email": "amanda.foster@growthengine.com",
+      "domain": "growthengine.com",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "recent_funding",
+      "score": 3.46,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "company": "Leadgenpro",
+      "contact_name": "Tom Anderson",
+      "email": "tom.anderson@leadgenpro.com",
+      "domain": "leadgenpro.com",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "recent_funding",
+      "score": 3.46,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "company": "PipelinePlus",
+      "contact_name": "Alex Turner",
+      "email": "alex.turner@pipelineplus.io",
+      "domain": "pipelineplus.io",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "recent_funding",
+      "score": 3.46,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 7,
+      "company": "SaaS Dynamics",
+      "contact_name": "Chris Lee",
+      "email": "chris.lee@saasdynamics.io",
+      "domain": "saasdynamics.io",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "recent_funding",
+      "score": 3.46,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 8,
+      "company": "RevenueMax",
+      "contact_name": "Kevin Wilson",
+      "email": "kevin.wilson@revenuemax.com",
+      "domain": "revenuemax.com",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "recent_funding",
+      "score": 3.46,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 9,
+      "company": "Flowstate",
+      "contact_name": "Michelle Liu",
+      "email": "michelle.liu@flowstate.co",
+      "domain": "flowstate.co",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "recent_funding",
+      "score": 3.46,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 10,
+      "company": "CloudSync Pro",
+      "contact_name": "Jessica Rodriguez",
+      "email": "jessica.rodriguez@cloudsync.co",
+      "domain": "cloudsync.co",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "hiring_for_sales",
+      "score": 2.56,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 11,
+      "company": "RevOps Labs",
+      "contact_name": "Ryan Murphy",
+      "email": "ryan.murphy@revopslabs.io",
+      "domain": "revopslabs.io",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "hiring_for_sales",
+      "score": 2.56,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 12,
+      "company": "SalesBoost AI",
+      "contact_name": "Lisa Wang",
+      "email": "lisa.wang@salesboost.ai",
+      "domain": "salesboost.ai",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "hiring_for_sales",
+      "score": 2.56,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 13,
+      "company": "ConvertFlow",
+      "contact_name": "Nicole Brown",
+      "email": "nicole.brown@convertflow.co",
+      "domain": "convertflow.co",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "hiring_for_sales",
+      "score": 2.56,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 14,
+      "company": "MarketEdge",
+      "contact_name": "Maria Garcia",
+      "email": "maria.garcia@marketedge.com",
+      "domain": "marketedge.com",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "hiring_for_sales",
+      "score": 2.56,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 15,
+      "company": "Autoscale.ai",
+      "contact_name": "Rachel Davis",
+      "email": "rachel.davis@autoscale.ai",
+      "domain": "autoscale.ai",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "hiring_for_sales",
+      "score": 2.56,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 16,
+      "company": "GrowthHacker Co",
+      "contact_name": "Amy Zhang",
+      "email": "amy.zhang@growthhacker.co",
+      "domain": "growthhacker.co",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "hiring_for_sales",
+      "score": 2.56,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 17,
+      "company": "Cloudfirst",
+      "contact_name": "Daniel Taylor",
+      "email": "daniel.taylor@cloudfirst.io",
+      "domain": "cloudfirst.io",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "hiring_for_sales",
+      "score": 2.56,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 18,
+      "company": "DataDriven",
+      "contact_name": "Emily Carter",
+      "email": "emily.carter@datadriven.com",
+      "domain": "datadriven.com",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "hiring_for_sales",
+      "score": 2.56,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 19,
+      "company": "ScaleTech",
+      "contact_name": "Jason Park",
+      "email": "jason.park@scaletech.ai",
+      "domain": "scaletech.ai",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "hiring_for_sales",
+      "score": 2.56,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 20,
+      "company": "GrowthPath",
+      "contact_name": "Brandon Scott",
+      "email": "brandon.scott@growthpath.io",
+      "domain": "growthpath.io",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "hiring_for_sales",
+      "score": 2.56,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    }
+  ],
+  "summary": {
+    "total_leads": 20,
+    "companies": 20,
+    "signals": 2,
+    "grades": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 20
+    },
+    "avg_score": 2.96
+  },
+  "timestamp": "2025-10-19T14:28:47.070973",
+  "config": {
+    "workflow_name": "OutboundLeadGeneration",
+    "target_count": 20,
+    "icp": {}
+  }
+}

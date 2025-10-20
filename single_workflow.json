@@ -1,0 +1,203 @@
+ {
+  "config": {
+    "env": { "load_from": "env", "required": ["GROQ_API_KEY", "CLAY_API_KEY", "APOLLO_API_KEY", "PDL_API_KEY", "HUNTER_API_KEY", "SHEET_ID", "BUILTWITH_API_KEY", "NEWS_API_KEY", "SENDGRID_API_KEY"] },
+    "models": {
+      "llm": {
+        "provider": "groq",
+        "base_url": "https://api.groq.com/openai/v1",
+        "api_key": "{{GROQ_API_KEY}}",
+        "model": "llama-3.1-70b-versatile",
+        "temperature": 0.2,
+        "top_p": 0.9
+      }
+    },
+    "memory": {
+      "type": "in_memory",
+      "retention": "until_workflow_end",
+      "persist_final_output_only": true
+    },
+    "output": { "format": "json" },
+    "feature_flags": { "auto_apply_feedback": false, "anonymize_intent_signals": true, "live_api": true },
+    "scoring": {
+      "weights": {
+        "industry_match": 2.0,
+        "employee_count_fit": 1.5,
+        "revenue_fit": 1.2,
+        "signal_recent_funding": 1.7,
+        "signal_hiring_for_sales": 1.3,
+        "tech_stack_match": 1.5,
+        "role_seniority": 1.0,
+        "role_function_match": 1.5,
+        "intent_score": 1.8,
+        "email_validity": 1.4,
+        "domain_traffic": 0.8,
+        "news_sentiment": 0.6
+      },
+      "thresholds": { "A": 8.0, "B": 6.0, "C": 4.0 },
+      "criteria": {
+        "industry": ["SaaS", "Software"],
+        "employee_count_range": { "min": 50, "max": 1500 },
+        "revenue_range": { "min": 10000000, "max": 300000000 },
+        "preferred_roles": ["VP Sales", "Head of Sales", "Sales Director", "Revenue Operations"],
+        "tech_stack_preferred": ["Salesforce", "HubSpot", "Outreach", "Gong"],
+        "signals": ["recent_funding", "hiring_for_sales"],
+        "email_requirements": { "allow_catch_all": false, "allow_free_providers": false }
+      }
+    }
+  },
+  "workflow_name": "OutboundLeadGeneration",
+  "description": "End-to-end AI agent workflow to find, contact, and qualify leads",
+  "steps": [
+    {
+      "id": "prospect_search",
+      "agent": "ProspectSearchAgent",
+      "inputs": {
+        "icp": {
+          "industry": "SaaS",
+          "location": "USA",
+          "employee_count": { "min": 100, "max": 1000 },
+          "revenue": { "min": 20000000, "max": 200000000 }
+        },
+        "signals": ["recent_funding", "hiring_for_sales"],
+        "target_count": 100
+      },
+      "instructions": "Use Clay and Apollo APIs to search for company and contact data matching ICP. Return structured leads.",
+      "tools": [
+        {
+          "name": "ClayAPI",
+          "config": { "api_key": "{{CLAY_API_KEY}}", "endpoint": "https://api.clay.com/search" }
+        },
+        {
+          "name": "ApolloAPI",
+          "config": { "api_key": "{{APOLLO_API_KEY}}", "endpoint": "https://api.apollo.io/v1/mixed_search" }
+        }
+      ],
+      "output_schema": {
+        "leads": [
+          { "company": "string", "contact_name": "string", "email": "string", "linkedin": "string", "signal": "string" }
+        ]
+      }
+    },
+    {
+      "id": "pre_enrichment",
+      "agent": "LLMPreEnrichmentAgent",
+      "inputs": { "leads": "{{prospect_search.output.leads}}", "normalize_fields": true },
+      "instructions": "Use LLM to normalize fields, fill missing titles/domains when safely inferrable, and cluster leads by segment. No external PII fetch.",
+      "tools": [
+        { "name": "OpenAICompatibleLLM", "config": { "base_url": "{{config.models.llm.base_url}}", "api_key": "{{config.models.llm.api_key}}", "model": "{{config.models.llm.model}}", "temperature": "{{config.models.llm.temperature}}" } }
+      ],
+      "output_schema": {
+        "leads": [ { "company": "string", "domain": "string", "contact_name": "string", "title": "string", "email": "string" } ],
+        "clusters": [ { "label": "string", "lead_ids": "array" } ]
+      }
+    },
+    {
+      "id": "enrichment",
+      "agent": "DataEnrichmentAgent",
+      "inputs": { "leads": "{{pre_enrichment.output.leads}}" },
+      "instructions": "Enrich lead data using Hunter.io domain search for company info.",
+      "tools": [
+        { "name": "Hunter", "config": { "api_key": "{{HUNTER_API_KEY}}", "endpoint": "https://api.hunter.io/v2/domain-search" } }
+      ],
+      "output_schema": {
+        "enriched_leads": [
+          { "company": "string", "contact": "string", "role": "string", "technologies": "array" }
+        ]
+      }
+    },
+    {
+      "id": "third_party_enrichment",
+      "agent": "ThirdPartyEnrichmentAgent",
+      "inputs": { "leads": "{{enrichment.output.enriched_leads}}" },
+      "instructions": "Augment with People Data Labs and email quality signals.",
+      "tools": [
+        { "name": "PeopleDataLabs", "config": { "api_key": "{{PDL_API_KEY}}", "endpoint": "https://api.peopledatalabs.com/v5/person/enrich" } }
+      ],
+      "output_schema": {
+        "enriched_leads": [ { "company": "string", "contact": "string", "role": "string", "technologies": "array", "emails": "array" } ]
+      }
+    },
+    {
+      "id": "intent_signals",
+      "agent": "AnonymizedIntentSignalAgent",
+      "inputs": { "leads": "{{third_party_enrichment.output.enriched_leads}}", "anonymize": "{{config.feature_flags.anonymize_intent_signals}}" },
+      "instructions": "Collect domain-level, anonymized intent (news, traffic index, tech changes). No PII collection.",
+      "tools": [
+        { "name": "BuiltWith", "config": { "api_key": "{{BUILTWITH_API_KEY}}", "endpoint": "https://api.builtwith.com/v21/api.json" } },
+        { "name": "NewsAPI", "config": { "api_key": "{{NEWS_API_KEY}}", "endpoint": "https://newsapi.org/v2/everything" } }
+      ],
+      "output_schema": { "intent_signals": [ { "domain": "string", "intent_score": "number", "news_sentiment": "number", "traffic_score": "number" } ] }
+    },
+    {
+      "id": "scoring",
+      "agent": "ScoringAgent",
+      "inputs": {
+      "enriched_leads": "{{third_party_enrichment.output.enriched_leads}}",
+      "intent_signals": "{{intent_signals.output.intent_signals}}",
+      "scoring_criteria": "{{config.scoring}}"
+      },
+      "instructions": "Score leads based on configurable ICP scoring function.",
+      "tools": [],
+      "output_schema": { "ranked_leads": "array" }
+    },
+    {
+      "id": "email_verification",
+      "agent": "EmailVerificationAgent",
+      "inputs": { "leads": "{{scoring.output.ranked_leads}}" },
+      "instructions": "Verify deliverability and filter risky emails.",
+      "tools": [ { "name": "HunterAPI", "config": { "api_key": "{{HUNTER_API_KEY}}", "endpoint": "https://api.hunter.io/v2/email-verifier" } } ],
+      "output_schema": { "verified_leads": "array" }
+    },
+    {
+      "id": "outreach_content",
+      "agent": "OutreachContentAgent",
+      "inputs": {
+      "ranked_leads": "{{email_verification.output.verified_leads}}",
+      "persona": "SDR",
+      "tone": "friendly"
+      },
+      "instructions": "Generate personalized outreach messages using LLM and prospect context.",
+      "tools": [
+        { "name": "OpenAICompatibleLLM", "config": { "base_url": "{{config.models.llm.base_url}}", "api_key": "{{config.models.llm.api_key}}", "model": "{{config.models.llm.model}}", "temperature": "{{config.models.llm.temperature}}" } }
+      ],
+      "output_schema": {
+        "messages": [{ "lead": "string", "email_body": "string" }]
+      }
+    },
+    {
+      "id": "send",
+      "agent": "OutreachExecutorAgent",
+      "inputs": { "messages": "{{outreach_content.output.messages}}" },
+      "instructions": "Send emails using SendGrid (preferred) or Apollo API and log delivery.",
+      "tools": [
+        { "name": "SendGrid", "config": { "api_key": "{{SENDGRID_API_KEY}}", "endpoint": "https://api.sendgrid.com/v3/mail/send" } },
+        { "name": "ApolloAPI", "config": { "api_key": "{{APOLLO_API_KEY}}" } }
+      ],
+      "output_schema": { "sent_status": [{ "lead": "string", "status": "string", "provider": "string" }], "campaign_id": "string" }
+    },
+    {
+      "id": "response_tracking",
+      "agent": "ResponseTrackerAgent",
+      "inputs": { "campaign_id": "{{send.output.campaign_id}}" },
+      "instructions": "Monitor email responses and meeting bookings using Apollo API.",
+      "tools": [{ "name": "ApolloAPI", "config": { "api_key": "{{APOLLO_API_KEY}}" } }],
+      "output_schema": { "responses": "array" }
+    },
+    {
+      "id": "feedback_trainer",
+      "agent": "FeedbackTrainerAgent",
+      "inputs": { "responses": "{{response_tracking.output.responses}}" },
+      "instructions": "Analyze open/click/reply data, suggest new configs (subject line change, ICP tweaks) and send for approval.",
+      "tools": [{ "name": "GoogleSheets", "config": { "sheet_id": "{{SHEET_ID}}" } }],
+      "output_schema": { "recommendations": "array", "sheets_write": { "sheet_id": "string", "rows": "number" }, "approval": { "required": "boolean", "status": "string" } }
+    },
+    {
+      "id": "feedback_apply",
+      "agent": "FeedbackApplyAgent",
+      "inputs": { "recommendations": "{{feedback_trainer.output.recommendations}}", "approval": "{{feedback_trainer.output.approval}}", "current_config": "{{config}}", "auto_apply": "{{config.feature_flags.auto_apply_feedback}}" },
+      "instructions": "If auto-apply is enabled, update scoring weights and messaging parameters in-memory for subsequent runs.",
+      "tools": [],
+      "output_schema": { "updated_config": "object", "applied": "boolean" }
+    }
+  ]
+}

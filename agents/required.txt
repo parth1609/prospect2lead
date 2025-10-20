@@ -1,0 +1,20 @@
+1. ProspectSearchAgent (Clay + Apollo)
+2. DataEnrichmentAgent (Clearbit / PeopleDataLabs)
+3. ScoringAgent
+4. OutreachContentAgent (groq/openAI)
+5. OutreachExecutorAgent (SendGrid)
+6. ResponseTrackerAgent (Apollo)
+7. FeedbackTrainerAgent (Google Sheets API)
+
+
+Each agent must:
+- Accept structured JSON input
+- Produce structured JSON output
+- Log intermediate reasoning and API responses
+
+
+4. FeedbackTrainer Functionality
+- Analyze campaign performance (open/reply rates)
+- Suggest config improvements (ICP filters, messaging tone, etc.)
+- Write recommendations to Google Sheets
+- Await human approval before applying updates
