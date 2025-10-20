@@ -129,7 +129,17 @@ def convert_to_simple_format(input_file: str, output_file: str) -> Dict[str, Any
 
 if __name__ == "__main__":
     # Convert existing output to simple format
-    if os.path.exists("langgraph_output.json"):
-        convert_to_simple_format("langgraph_output.json", "simple_leads_output.json")
+    # Look in outputs directory for the most recent JSON file
+    outputs_dir = "outputs"
+    if os.path.exists(outputs_dir):
+        json_files = [f for f in os.listdir(outputs_dir) if f.endswith('.json')]
+        if json_files:
+            # Sort by modification time (most recent first)
+            json_files.sort(key=lambda x: os.path.getmtime(os.path.join(outputs_dir, x)), reverse=True)
+            input_file = os.path.join(outputs_dir, json_files[0])
+            output_file = os.path.join(outputs_dir, "simple_leads_output.json")
+            convert_to_simple_format(input_file, output_file)
+        else:
+            print("No JSON files found in outputs/ directory. Run the workflow first.")
     else:
-        print("No langgraph_output.json found. Run the workflow first.")
+        print("No outputs/ directory found. Run the workflow first.")

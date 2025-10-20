@@ -6,8 +6,13 @@ import json
 import time
 import threading
 from datetime import datetime
-from graph_runner import run_langgraph_workflow
-from realtime_dashboard import tracer, start_dashboard_server, FLASK_AVAILABLE
+
+# Use absolute imports instead of relative imports
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from runners.graph_runner import run_langgraph_workflow
+from dashboard.realtime_dashboard import tracer, start_dashboard_server, FLASK_AVAILABLE
 
 
 class TracedWorkflowRunner:

@@ -19,9 +19,10 @@ def install_requirements():
 
 
 def check_env_file():
-    env_path = ".env"
+    env_path = "config/.env"
     if not os.path.exists(env_path):
-        print("❌ .env file not found")
+        print("❌ .env file not found in config/ directory")
+        print("   Please create config/.env with your API keys")
         return False
     
     required_keys = [
@@ -45,9 +46,10 @@ def check_env_file():
 
 
 def test_workflow_json():
-    workflow_path = "single_workflow.json"
+    workflow_path = "workflows/single_workflow.json"
     if not os.path.exists(workflow_path):
-        print("❌ single_workflow.json not found")
+        print("❌ single_workflow.json not found in workflows/ directory")
+        print("   Please ensure the workflow file exists")
         return False
     
     try:
@@ -87,9 +89,9 @@ def main():
         print("✅ Setup complete! Ready to run LangGraph workflow")
         print("\nNext steps:")
         print("  Run with simple runner:")
-        print("    python langgraph_builder.py --workflow single_workflow.json")
+        print("    python runners/langgraph_builder.py --workflow workflows/single_workflow.json")
         print("  Run with LangGraph:")
-        print("    python graph_runner.py --workflow single_workflow.json --visualize")
+        print("    python runners/graph_runner.py --workflow workflows/single_workflow.json --visualize")
         
         if not env_ok:
             print("\n⚠️  Note: Some API keys are missing. The workflow will use simulated data.")

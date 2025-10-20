@@ -6,14 +6,17 @@ from typing import Any, Dict, List, Optional, TypedDict
 
 try:
     from dotenv import load_dotenv
-    # Try to load .env from current directory first
-    if os.path.exists(".env"):
-        load_dotenv(".env", override=True)
-    # Also try from script directory
+    # Try to load .env from config directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    env_path = os.path.join(script_dir, ".env")
+    parent_dir = os.path.dirname(script_dir)  # Go up to project root
+    env_path = os.path.join(parent_dir, "config", ".env")
     if os.path.exists(env_path):
         load_dotenv(env_path, override=True)
+    else:
+        # Fallback: try from script directory
+        env_path = os.path.join(script_dir, ".env")
+        if os.path.exists(env_path):
+            load_dotenv(env_path, override=True)
 except ImportError:
     pass
 
@@ -21,6 +24,10 @@ from langgraph.graph import StateGraph, START, END
 from langgraph.graph.message import add_messages
 from langchain_core.messages import BaseMessage
 
+# Use absolute imports instead of relative imports
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from agents import AGENTS as AGENT_REGISTRY
 from agents.utils import _log, _sanitize_tools
 

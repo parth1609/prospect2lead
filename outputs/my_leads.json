@@ -138,14 +138,14 @@
             "contact_name": "Ryan Murphy",
             "email": "ryan.murphy@revopslabs.io",
             "linkedin": "https://linkedin.com/in/ryanmurphy",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "SalesBoost AI",
             "contact_name": "Lisa Wang",
             "email": "lisa.wang@salesboost.ai",
             "linkedin": "https://linkedin.com/in/lisawang",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "LeadGen Pro",
@@ -159,21 +159,21 @@
             "contact_name": "Nicole Brown",
             "email": "nicole.brown@convertflow.co",
             "linkedin": "https://linkedin.com/in/nicolebrown",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "PipelinePlus",
             "contact_name": "Alex Turner",
             "email": "alex.turner@pipelineplus.io",
             "linkedin": "https://linkedin.com/in/alexturner",
-            "signal": "recent_funding"
+            "signal": "hiring_for_sales"
           },
           {
             "company": "MarketEdge",
             "contact_name": "Maria Garcia",
             "email": "maria.garcia@marketedge.com",
             "linkedin": "https://linkedin.com/in/mariagarcia",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "SaaS Dynamics",
@@ -187,56 +187,56 @@
             "contact_name": "Rachel Davis",
             "email": "rachel.davis@autoscale.ai",
             "linkedin": "https://linkedin.com/in/racheldavis",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "RevenueMax",
             "contact_name": "Kevin Wilson",
             "email": "kevin.wilson@revenuemax.com",
             "linkedin": "https://linkedin.com/in/kevinwilson",
-            "signal": "recent_funding"
+            "signal": "hiring_for_sales"
           },
           {
             "company": "GrowthHacker Co",
             "contact_name": "Amy Zhang",
             "email": "amy.zhang@growthhacker.co",
             "linkedin": "https://linkedin.com/in/amyzhang",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "CloudFirst Labs",
             "contact_name": "Daniel Taylor",
             "email": "daniel.taylor@cloudfirst.io",
             "linkedin": "https://linkedin.com/in/danieltaylor",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "DataDriven Inc",
             "contact_name": "Emily Carter",
             "email": "emily.carter@datadriven.com",
             "linkedin": "https://linkedin.com/in/emilycarter",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "ScaleTech",
             "contact_name": "Jason Park",
             "email": "jason.park@scaletech.ai",
             "linkedin": "https://linkedin.com/in/jasonpark",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "FlowState Software",
             "contact_name": "Michelle Liu",
             "email": "michelle.liu@flowstate.co",
             "linkedin": "https://linkedin.com/in/michelleliu",
-            "signal": "recent_funding"
+            "signal": "hiring_for_sales"
           },
           {
             "company": "GrowthPath",
             "contact_name": "Brandon Scott",
             "email": "brandon.scott@growthpath.io",
             "linkedin": "https://linkedin.com/in/brandonscott",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           }
         ]
       }
@@ -290,7 +290,7 @@
             "contact_name": "Ryan Murphy",
             "title": "",
             "email": "ryan.murphy@revopslabs.io",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "SalesBoost AI",
@@ -298,7 +298,7 @@
             "contact_name": "Lisa Wang",
             "title": "",
             "email": "lisa.wang@salesboost.ai",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "LeadGen Pro",
@@ -314,7 +314,7 @@
             "contact_name": "Nicole Brown",
             "title": "",
             "email": "nicole.brown@convertflow.co",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "PipelinePlus",
@@ -322,7 +322,7 @@
             "contact_name": "Alex Turner",
             "title": "",
             "email": "alex.turner@pipelineplus.io",
-            "signal": "recent_funding"
+            "signal": "hiring_for_sales"
           },
           {
             "company": "MarketEdge",
@@ -330,7 +330,7 @@
             "contact_name": "Maria Garcia",
             "title": "",
             "email": "maria.garcia@marketedge.com",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "SaaS Dynamics",
@@ -346,7 +346,7 @@
             "contact_name": "Rachel Davis",
             "title": "",
             "email": "rachel.davis@autoscale.ai",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "RevenueMax",
@@ -354,7 +354,7 @@
             "contact_name": "Kevin Wilson",
             "title": "",
             "email": "kevin.wilson@revenuemax.com",
-            "signal": "recent_funding"
+            "signal": "hiring_for_sales"
           },
           {
             "company": "GrowthHacker Co",
@@ -362,7 +362,7 @@
             "contact_name": "Amy Zhang",
             "title": "",
             "email": "amy.zhang@growthhacker.co",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "CloudFirst Labs",
@@ -370,7 +370,7 @@
             "contact_name": "Daniel Taylor",
             "title": "",
             "email": "daniel.taylor@cloudfirst.io",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "DataDriven Inc",
@@ -378,7 +378,7 @@
             "contact_name": "Emily Carter",
             "title": "",
             "email": "emily.carter@datadriven.com",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "ScaleTech",
@@ -386,7 +386,7 @@
             "contact_name": "Jason Park",
             "title": "",
             "email": "jason.park@scaletech.ai",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "FlowState Software",
@@ -394,7 +394,7 @@
             "contact_name": "Michelle Liu",
             "title": "",
             "email": "michelle.liu@flowstate.co",
-            "signal": "recent_funding"
+            "signal": "hiring_for_sales"
           },
           {
             "company": "GrowthPath",
@@ -402,7 +402,7 @@
             "contact_name": "Brandon Scott",
             "title": "",
             "email": "brandon.scott@growthpath.io",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           }
         ],
         "clusters": [
@@ -501,7 +501,7 @@
             ],
             "email": "ryan.murphy@revopslabs.io",
             "domain": "revopslabs.io",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "SalesBoost AI",
@@ -512,7 +512,7 @@
             ],
             "email": "lisa.wang@salesboost.ai",
             "domain": "salesboost.ai",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "Leadgenpro",
@@ -534,7 +534,7 @@
             ],
             "email": "nicole.brown@convertflow.co",
             "domain": "convertflow.co",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "PipelinePlus",
@@ -545,7 +545,7 @@
             ],
             "email": "alex.turner@pipelineplus.io",
             "domain": "pipelineplus.io",
-            "signal": "recent_funding"
+            "signal": "hiring_for_sales"
           },
           {
             "company": "MarketEdge",
@@ -556,7 +556,7 @@
             ],
             "email": "maria.garcia@marketedge.com",
             "domain": "marketedge.com",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "SaaS Dynamics",
@@ -578,7 +578,7 @@
             ],
             "email": "rachel.davis@autoscale.ai",
             "domain": "autoscale.ai",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "RevenueMax",
@@ -589,7 +589,7 @@
             ],
             "email": "kevin.wilson@revenuemax.com",
             "domain": "revenuemax.com",
-            "signal": "recent_funding"
+            "signal": "hiring_for_sales"
           },
           {
             "company": "GrowthHacker Co",
@@ -600,7 +600,7 @@
             ],
             "email": "amy.zhang@growthhacker.co",
             "domain": "growthhacker.co",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "Cloudfirst",
@@ -611,7 +611,7 @@
             ],
             "email": "daniel.taylor@cloudfirst.io",
             "domain": "cloudfirst.io",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "DataDriven",
@@ -622,7 +622,7 @@
             ],
             "email": "emily.carter@datadriven.com",
             "domain": "datadriven.com",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "ScaleTech",
@@ -633,7 +633,7 @@
             ],
             "email": "jason.park@scaletech.ai",
             "domain": "scaletech.ai",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "Flowstate",
@@ -644,7 +644,7 @@
             ],
             "email": "michelle.liu@flowstate.co",
             "domain": "flowstate.co",
-            "signal": "recent_funding"
+            "signal": "hiring_for_sales"
           },
           {
             "company": "GrowthPath",
@@ -655,7 +655,7 @@
             ],
             "email": "brandon.scott@growthpath.io",
             "domain": "growthpath.io",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           }
         ]
       }
@@ -745,7 +745,7 @@
             ],
             "email": "ryan.murphy@revopslabs.io",
             "domain": "revopslabs.io",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "SalesBoost AI",
@@ -759,7 +759,7 @@
             ],
             "email": "lisa.wang@salesboost.ai",
             "domain": "salesboost.ai",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "Leadgenpro",
@@ -787,7 +787,7 @@
             ],
             "email": "nicole.brown@convertflow.co",
             "domain": "convertflow.co",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "PipelinePlus",
@@ -801,7 +801,7 @@
             ],
             "email": "alex.turner@pipelineplus.io",
             "domain": "pipelineplus.io",
-            "signal": "recent_funding"
+            "signal": "hiring_for_sales"
           },
           {
             "company": "MarketEdge",
@@ -815,7 +815,7 @@
             ],
             "email": "maria.garcia@marketedge.com",
             "domain": "marketedge.com",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "SaaS Dynamics",
@@ -843,7 +843,7 @@
             ],
             "email": "rachel.davis@autoscale.ai",
             "domain": "autoscale.ai",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "RevenueMax",
@@ -857,7 +857,7 @@
             ],
             "email": "kevin.wilson@revenuemax.com",
             "domain": "revenuemax.com",
-            "signal": "recent_funding"
+            "signal": "hiring_for_sales"
           },
           {
             "company": "GrowthHacker Co",
@@ -871,7 +871,7 @@
             ],
             "email": "amy.zhang@growthhacker.co",
             "domain": "growthhacker.co",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "Cloudfirst",
@@ -885,7 +885,7 @@
             ],
             "email": "daniel.taylor@cloudfirst.io",
             "domain": "cloudfirst.io",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "DataDriven",
@@ -899,7 +899,7 @@
             ],
             "email": "emily.carter@datadriven.com",
             "domain": "datadriven.com",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "ScaleTech",
@@ -913,7 +913,7 @@
             ],
             "email": "jason.park@scaletech.ai",
             "domain": "scaletech.ai",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           },
           {
             "company": "Flowstate",
@@ -927,7 +927,7 @@
             ],
             "email": "michelle.liu@flowstate.co",
             "domain": "flowstate.co",
-            "signal": "recent_funding"
+            "signal": "hiring_for_sales"
           },
           {
             "company": "GrowthPath",
@@ -941,7 +941,7 @@
             ],
             "email": "brandon.scott@growthpath.io",
             "domain": "growthpath.io",
-            "signal": "hiring_for_sales"
+            "signal": "recent_funding"
           }
         ]
       }
@@ -981,13 +981,13 @@
           },
           {
             "domain": "revopslabs.io",
-            "intent_score": 0.5,
+            "intent_score": 1.0,
             "news_sentiment": 0.4,
             "traffic_score": 0.02
           },
           {
             "domain": "salesboost.ai",
-            "intent_score": 0.5,
+            "intent_score": 1.0,
             "news_sentiment": 0.4,
             "traffic_score": 0.02
           },
@@ -999,19 +999,19 @@
           },
           {
             "domain": "convertflow.co",
-            "intent_score": 0.5,
-            "news_sentiment": 0.4,
-            "traffic_score": 0.02
-          },
-          {
-            "domain": "pipelineplus.io",
             "intent_score": 1.0,
             "news_sentiment": 0.4,
             "traffic_score": 0.02
           },
           {
-            "domain": "marketedge.com",
+            "domain": "pipelineplus.io",
             "intent_score": 0.5,
+            "news_sentiment": 0.4,
+            "traffic_score": 0.02
+          },
+          {
+            "domain": "marketedge.com",
+            "intent_score": 1.0,
             "news_sentiment": 0.4,
             "traffic_score": 0.02
           },
@@ -1023,49 +1023,49 @@
           },
           {
             "domain": "autoscale.ai",
-            "intent_score": 0.5,
+            "intent_score": 1.0,
             "news_sentiment": 0.4,
             "traffic_score": 0.02
           },
           {
             "domain": "revenuemax.com",
-            "intent_score": 1.0,
+            "intent_score": 0.5,
             "news_sentiment": 0.4,
             "traffic_score": 0.02
           },
           {
             "domain": "growthhacker.co",
-            "intent_score": 0.5,
-            "news_sentiment": 0.4,
-            "traffic_score": 0.02
-          },
-          {
-            "domain": "cloudfirst.io",
-            "intent_score": 0.5,
-            "news_sentiment": 0.4,
-            "traffic_score": 0.02
-          },
-          {
-            "domain": "datadriven.com",
-            "intent_score": 0.5,
-            "news_sentiment": 0.4,
-            "traffic_score": 0.02
-          },
-          {
-            "domain": "scaletech.ai",
-            "intent_score": 0.5,
-            "news_sentiment": 0.4,
-            "traffic_score": 0.02
-          },
-          {
-            "domain": "flowstate.co",
             "intent_score": 1.0,
             "news_sentiment": 0.4,
             "traffic_score": 0.02
           },
           {
-            "domain": "growthpath.io",
+            "domain": "cloudfirst.io",
+            "intent_score": 1.0,
+            "news_sentiment": 0.4,
+            "traffic_score": 0.02
+          },
+          {
+            "domain": "datadriven.com",
+            "intent_score": 1.0,
+            "news_sentiment": 0.4,
+            "traffic_score": 0.02
+          },
+          {
+            "domain": "scaletech.ai",
+            "intent_score": 1.0,
+            "news_sentiment": 0.4,
+            "traffic_score": 0.02
+          },
+          {
+            "domain": "flowstate.co",
             "intent_score": 0.5,
+            "news_sentiment": 0.4,
+            "traffic_score": 0.02
+          },
+          {
+            "domain": "growthpath.io",
+            "intent_score": 1.0,
             "news_sentiment": 0.4,
             "traffic_score": 0.02
           }
@@ -1140,6 +1140,38 @@
             "grade": "D"
           },
           {
+            "company": "RevOps Labs",
+            "contact": "Ryan Murphy",
+            "role": "Unknown",
+            "technologies": [
+              "Unknown"
+            ],
+            "emails": [
+              "ryan.murphy@revopslabs.io"
+            ],
+            "email": "ryan.murphy@revopslabs.io",
+            "domain": "revopslabs.io",
+            "signal": "recent_funding",
+            "score": 3.456,
+            "grade": "D"
+          },
+          {
+            "company": "SalesBoost AI",
+            "contact": "Lisa Wang",
+            "role": "Unknown",
+            "technologies": [
+              "Unknown"
+            ],
+            "emails": [
+              "lisa.wang@salesboost.ai"
+            ],
+            "email": "lisa.wang@salesboost.ai",
+            "domain": "salesboost.ai",
+            "signal": "recent_funding",
+            "score": 3.456,
+            "grade": "D"
+          },
+          {
             "company": "Leadgenpro",
             "contact": "Tom Anderson",
             "role": "Unknown",
@@ -1156,17 +1188,33 @@
             "grade": "D"
           },
           {
-            "company": "PipelinePlus",
-            "contact": "Alex Turner",
+            "company": "ConvertFlow",
+            "contact": "Nicole Brown",
             "role": "Unknown",
             "technologies": [
               "Unknown"
             ],
             "emails": [
-              "alex.turner@pipelineplus.io"
+              "nicole.brown@convertflow.co"
             ],
-            "email": "alex.turner@pipelineplus.io",
-            "domain": "pipelineplus.io",
+            "email": "nicole.brown@convertflow.co",
+            "domain": "convertflow.co",
+            "signal": "recent_funding",
+            "score": 3.456,
+            "grade": "D"
+          },
+          {
+            "company": "MarketEdge",
+            "contact": "Maria Garcia",
+            "role": "Unknown",
+            "technologies": [
+              "Unknown"
+            ],
+            "emails": [
+              "maria.garcia@marketedge.com"
+            ],
+            "email": "maria.garcia@marketedge.com",
+            "domain": "marketedge.com",
             "signal": "recent_funding",
             "score": 3.456,
             "grade": "D"
@@ -1188,33 +1236,97 @@
             "grade": "D"
           },
           {
-            "company": "RevenueMax",
-            "contact": "Kevin Wilson",
+            "company": "Autoscale.ai",
+            "contact": "Rachel Davis",
             "role": "Unknown",
             "technologies": [
               "Unknown"
             ],
             "emails": [
-              "kevin.wilson@revenuemax.com"
+              "rachel.davis@autoscale.ai"
             ],
-            "email": "kevin.wilson@revenuemax.com",
-            "domain": "revenuemax.com",
+            "email": "rachel.davis@autoscale.ai",
+            "domain": "autoscale.ai",
             "signal": "recent_funding",
             "score": 3.456,
             "grade": "D"
           },
           {
-            "company": "Flowstate",
-            "contact": "Michelle Liu",
+            "company": "GrowthHacker Co",
+            "contact": "Amy Zhang",
             "role": "Unknown",
             "technologies": [
               "Unknown"
             ],
             "emails": [
-              "michelle.liu@flowstate.co"
+              "amy.zhang@growthhacker.co"
             ],
-            "email": "michelle.liu@flowstate.co",
-            "domain": "flowstate.co",
+            "email": "amy.zhang@growthhacker.co",
+            "domain": "growthhacker.co",
+            "signal": "recent_funding",
+            "score": 3.456,
+            "grade": "D"
+          },
+          {
+            "company": "Cloudfirst",
+            "contact": "Daniel Taylor",
+            "role": "Unknown",
+            "technologies": [
+              "Unknown"
+            ],
+            "emails": [
+              "daniel.taylor@cloudfirst.io"
+            ],
+            "email": "daniel.taylor@cloudfirst.io",
+            "domain": "cloudfirst.io",
+            "signal": "recent_funding",
+            "score": 3.456,
+            "grade": "D"
+          },
+          {
+            "company": "DataDriven",
+            "contact": "Emily Carter",
+            "role": "Unknown",
+            "technologies": [
+              "Unknown"
+            ],
+            "emails": [
+              "emily.carter@datadriven.com"
+            ],
+            "email": "emily.carter@datadriven.com",
+            "domain": "datadriven.com",
+            "signal": "recent_funding",
+            "score": 3.456,
+            "grade": "D"
+          },
+          {
+            "company": "ScaleTech",
+            "contact": "Jason Park",
+            "role": "Unknown",
+            "technologies": [
+              "Unknown"
+            ],
+            "emails": [
+              "jason.park@scaletech.ai"
+            ],
+            "email": "jason.park@scaletech.ai",
+            "domain": "scaletech.ai",
+            "signal": "recent_funding",
+            "score": 3.456,
+            "grade": "D"
+          },
+          {
+            "company": "GrowthPath",
+            "contact": "Brandon Scott",
+            "role": "Unknown",
+            "technologies": [
+              "Unknown"
+            ],
+            "emails": [
+              "brandon.scott@growthpath.io"
+            ],
+            "email": "brandon.scott@growthpath.io",
+            "domain": "growthpath.io",
             "signal": "recent_funding",
             "score": 3.456,
             "grade": "D"
@@ -1236,161 +1348,49 @@
             "grade": "D"
           },
           {
-            "company": "RevOps Labs",
-            "contact": "Ryan Murphy",
+            "company": "PipelinePlus",
+            "contact": "Alex Turner",
             "role": "Unknown",
             "technologies": [
               "Unknown"
             ],
             "emails": [
-              "ryan.murphy@revopslabs.io"
+              "alex.turner@pipelineplus.io"
             ],
-            "email": "ryan.murphy@revopslabs.io",
-            "domain": "revopslabs.io",
+            "email": "alex.turner@pipelineplus.io",
+            "domain": "pipelineplus.io",
             "signal": "hiring_for_sales",
             "score": 2.556,
             "grade": "D"
           },
           {
-            "company": "SalesBoost AI",
-            "contact": "Lisa Wang",
+            "company": "RevenueMax",
+            "contact": "Kevin Wilson",
             "role": "Unknown",
             "technologies": [
               "Unknown"
             ],
             "emails": [
-              "lisa.wang@salesboost.ai"
+              "kevin.wilson@revenuemax.com"
             ],
-            "email": "lisa.wang@salesboost.ai",
-            "domain": "salesboost.ai",
+            "email": "kevin.wilson@revenuemax.com",
+            "domain": "revenuemax.com",
             "signal": "hiring_for_sales",
             "score": 2.556,
             "grade": "D"
           },
           {
-            "company": "ConvertFlow",
-            "contact": "Nicole Brown",
+            "company": "Flowstate",
+            "contact": "Michelle Liu",
             "role": "Unknown",
             "technologies": [
               "Unknown"
             ],
             "emails": [
-              "nicole.brown@convertflow.co"
+              "michelle.liu@flowstate.co"
             ],
-            "email": "nicole.brown@convertflow.co",
-            "domain": "convertflow.co",
-            "signal": "hiring_for_sales",
-            "score": 2.556,
-            "grade": "D"
-          },
-          {
-            "company": "MarketEdge",
-            "contact": "Maria Garcia",
-            "role": "Unknown",
-            "technologies": [
-              "Unknown"
-            ],
-            "emails": [
-              "maria.garcia@marketedge.com"
-            ],
-            "email": "maria.garcia@marketedge.com",
-            "domain": "marketedge.com",
-            "signal": "hiring_for_sales",
-            "score": 2.556,
-            "grade": "D"
-          },
-          {
-            "company": "Autoscale.ai",
-            "contact": "Rachel Davis",
-            "role": "Unknown",
-            "technologies": [
-              "Unknown"
-            ],
-            "emails": [
-              "rachel.davis@autoscale.ai"
-            ],
-            "email": "rachel.davis@autoscale.ai",
-            "domain": "autoscale.ai",
-            "signal": "hiring_for_sales",
-            "score": 2.556,
-            "grade": "D"
-          },
-          {
-            "company": "GrowthHacker Co",
-            "contact": "Amy Zhang",
-            "role": "Unknown",
-            "technologies": [
-              "Unknown"
-            ],
-            "emails": [
-              "amy.zhang@growthhacker.co"
-            ],
-            "email": "amy.zhang@growthhacker.co",
-            "domain": "growthhacker.co",
-            "signal": "hiring_for_sales",
-            "score": 2.556,
-            "grade": "D"
-          },
-          {
-            "company": "Cloudfirst",
-            "contact": "Daniel Taylor",
-            "role": "Unknown",
-            "technologies": [
-              "Unknown"
-            ],
-            "emails": [
-              "daniel.taylor@cloudfirst.io"
-            ],
-            "email": "daniel.taylor@cloudfirst.io",
-            "domain": "cloudfirst.io",
-            "signal": "hiring_for_sales",
-            "score": 2.556,
-            "grade": "D"
-          },
-          {
-            "company": "DataDriven",
-            "contact": "Emily Carter",
-            "role": "Unknown",
-            "technologies": [
-              "Unknown"
-            ],
-            "emails": [
-              "emily.carter@datadriven.com"
-            ],
-            "email": "emily.carter@datadriven.com",
-            "domain": "datadriven.com",
-            "signal": "hiring_for_sales",
-            "score": 2.556,
-            "grade": "D"
-          },
-          {
-            "company": "ScaleTech",
-            "contact": "Jason Park",
-            "role": "Unknown",
-            "technologies": [
-              "Unknown"
-            ],
-            "emails": [
-              "jason.park@scaletech.ai"
-            ],
-            "email": "jason.park@scaletech.ai",
-            "domain": "scaletech.ai",
-            "signal": "hiring_for_sales",
-            "score": 2.556,
-            "grade": "D"
-          },
-          {
-            "company": "GrowthPath",
-            "contact": "Brandon Scott",
-            "role": "Unknown",
-            "technologies": [
-              "Unknown"
-            ],
-            "emails": [
-              "brandon.scott@growthpath.io"
-            ],
-            "email": "brandon.scott@growthpath.io",
-            "domain": "growthpath.io",
+            "email": "michelle.liu@flowstate.co",
+            "domain": "flowstate.co",
             "signal": "hiring_for_sales",
             "score": 2.556,
             "grade": "D"
@@ -1418,22 +1418,6 @@
             "grade": "D"
           },
           {
-            "company": "RevenueMax",
-            "contact": "Kevin Wilson",
-            "role": "Unknown",
-            "technologies": [
-              "Unknown"
-            ],
-            "emails": [
-              "kevin.wilson@revenuemax.com"
-            ],
-            "email": "kevin.wilson@revenuemax.com",
-            "domain": "revenuemax.com",
-            "signal": "recent_funding",
-            "score": 3.456,
-            "grade": "D"
-          },
-          {
             "company": "MarketEdge",
             "contact": "Maria Garcia",
             "role": "Unknown",
@@ -1445,6 +1429,22 @@
             ],
             "email": "maria.garcia@marketedge.com",
             "domain": "marketedge.com",
+            "signal": "recent_funding",
+            "score": 3.456,
+            "grade": "D"
+          },
+          {
+            "company": "RevenueMax",
+            "contact": "Kevin Wilson",
+            "role": "Unknown",
+            "technologies": [
+              "Unknown"
+            ],
+            "emails": [
+              "kevin.wilson@revenuemax.com"
+            ],
+            "email": "kevin.wilson@revenuemax.com",
+            "domain": "revenuemax.com",
             "signal": "hiring_for_sales",
             "score": 2.556,
             "grade": "D"
@@ -1461,13 +1461,13 @@
             "persona": "SDR"
           },
           {
-            "lead": "kevin.wilson@revenuemax.com",
-            "email_body": "Hi Kevin Wilson, we help RevenueMax accelerate outbound with LLM agents. Would you be open to a quick chat? Thanks!",
+            "lead": "maria.garcia@marketedge.com",
+            "email_body": "Hi Maria Garcia, we help MarketEdge accelerate outbound with LLM agents. Would you be open to a quick chat? Thanks!",
             "persona": "SDR"
           },
           {
-            "lead": "maria.garcia@marketedge.com",
-            "email_body": "Hi Maria Garcia, we help MarketEdge accelerate outbound with LLM agents. Would you be open to a quick chat? Thanks!",
+            "lead": "kevin.wilson@revenuemax.com",
+            "email_body": "Hi Kevin Wilson, we help RevenueMax accelerate outbound with LLM agents. Would you be open to a quick chat? Thanks!",
             "persona": "SDR"
           }
         ]
@@ -1482,17 +1482,17 @@
             "provider": "sendgrid"
           },
           {
-            "lead": "kevin.wilson@revenuemax.com",
+            "lead": "maria.garcia@marketedge.com",
             "status": "sent",
             "provider": "sendgrid"
           },
           {
-            "lead": "maria.garcia@marketedge.com",
+            "lead": "kevin.wilson@revenuemax.com",
             "status": "sent",
             "provider": "sendgrid"
           }
         ],
-        "campaign_id": "cmp-1760864004"
+        "campaign_id": "cmp-1760941239"
       }
     },
     "response_tracking": {
@@ -1505,13 +1505,13 @@
             "replied": false
           },
           {
-            "lead": "kevin.wilson@revenuemax.com",
+            "lead": "maria.garcia@marketedge.com",
             "opened": false,
             "clicked": false,
             "replied": false
           },
           {
-            "lead": "maria.garcia@marketedge.com",
+            "lead": "kevin.wilson@revenuemax.com",
             "opened": false,
             "clicked": false,
             "replied": false
@@ -1645,7 +1645,7 @@
   "logs": {
     "_global": [
       {
-        "ts": 1760863903866,
+        "ts": 1760941133620,
         "type": "env_loading",
         "data": {
           "keys": [
@@ -1698,14 +1698,14 @@
         }
       },
       {
-        "ts": 1760863903884,
+        "ts": 1760941133645,
         "type": "reasoning",
         "data": {
           "note": "searching prospects by ICP/signals"
         }
       },
       {
-        "ts": 1760863903884,
+        "ts": 1760941133645,
         "type": "api_request",
         "data": {
           "tools": [
@@ -1727,7 +1727,7 @@
         }
       },
       {
-        "ts": 1760863903884,
+        "ts": 1760941133645,
         "type": "api_call",
         "data": {
           "provider": "clay",
@@ -1735,7 +1735,7 @@
         }
       },
       {
-        "ts": 1760863904271,
+        "ts": 1760941134447,
         "type": "api_error",
         "data": {
           "provider": "clay",
@@ -1743,7 +1743,7 @@
         }
       },
       {
-        "ts": 1760863904271,
+        "ts": 1760941134447,
         "type": "api_call",
         "data": {
           "provider": "apollo",
@@ -1751,7 +1751,7 @@
         }
       },
       {
-        "ts": 1760863904474,
+        "ts": 1760941134740,
         "type": "api_error",
         "data": {
           "provider": "apollo",
@@ -1759,7 +1759,7 @@
         }
       },
       {
-        "ts": 1760863904474,
+        "ts": 1760941134740,
         "type": "synthetic_generation",
         "data": {
           "count": 20,
@@ -1767,28 +1767,28 @@
         }
       },
       {
-        "ts": 1760863904474,
+        "ts": 1760941134740,
         "type": "api_response",
         "data": {
           "count": 20
         }
       },
       {
-        "ts": 1760863904475,
+        "ts": 1760941134741,
         "type": "reasoning",
         "data": {
           "note": "normalize and infer missing fields"
         }
       },
       {
-        "ts": 1760863904475,
+        "ts": 1760941134741,
         "type": "intermediate",
         "data": {
           "normalized": 20
         }
       },
       {
-        "ts": 1760863904475,
+        "ts": 1760941134741,
         "type": "api_request",
         "data": {
           "tools": [
@@ -1803,7 +1803,7 @@
         }
       },
       {
-        "ts": 1760863904475,
+        "ts": 1760941134741,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -1811,7 +1811,7 @@
         }
       },
       {
-        "ts": 1760863906108,
+        "ts": 1760941135994,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -1819,7 +1819,7 @@
         }
       },
       {
-        "ts": 1760863906108,
+        "ts": 1760941135994,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -1827,7 +1827,7 @@
         }
       },
       {
-        "ts": 1760863907095,
+        "ts": 1760941136960,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -1835,7 +1835,7 @@
         }
       },
       {
-        "ts": 1760863907095,
+        "ts": 1760941136960,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -1843,7 +1843,7 @@
         }
       },
       {
-        "ts": 1760863908178,
+        "ts": 1760941137471,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -1851,7 +1851,7 @@
         }
       },
       {
-        "ts": 1760863908178,
+        "ts": 1760941137471,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -1859,7 +1859,7 @@
         }
       },
       {
-        "ts": 1760863909034,
+        "ts": 1760941138027,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -1867,7 +1867,7 @@
         }
       },
       {
-        "ts": 1760863909034,
+        "ts": 1760941138027,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -1875,7 +1875,7 @@
         }
       },
       {
-        "ts": 1760863909515,
+        "ts": 1760941138588,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -1883,7 +1883,7 @@
         }
       },
       {
-        "ts": 1760863909515,
+        "ts": 1760941138588,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -1891,7 +1891,7 @@
         }
       },
       {
-        "ts": 1760863910419,
+        "ts": 1760941139093,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -1899,7 +1899,7 @@
         }
       },
       {
-        "ts": 1760863910419,
+        "ts": 1760941139093,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -1907,7 +1907,7 @@
         }
       },
       {
-        "ts": 1760863911703,
+        "ts": 1760941139708,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -1915,7 +1915,7 @@
         }
       },
       {
-        "ts": 1760863911703,
+        "ts": 1760941139708,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -1923,7 +1923,7 @@
         }
       },
       {
-        "ts": 1760863912152,
+        "ts": 1760941140241,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -1931,7 +1931,7 @@
         }
       },
       {
-        "ts": 1760863912152,
+        "ts": 1760941140241,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -1939,7 +1939,7 @@
         }
       },
       {
-        "ts": 1760863912679,
+        "ts": 1760941140758,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -1947,7 +1947,7 @@
         }
       },
       {
-        "ts": 1760863912679,
+        "ts": 1760941140758,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -1955,7 +1955,7 @@
         }
       },
       {
-        "ts": 1760863913662,
+        "ts": 1760941141228,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -1963,7 +1963,7 @@
         }
       },
       {
-        "ts": 1760863913662,
+        "ts": 1760941141228,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -1971,7 +1971,7 @@
         }
       },
       {
-        "ts": 1760863914259,
+        "ts": 1760941142272,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -1979,7 +1979,7 @@
         }
       },
       {
-        "ts": 1760863914259,
+        "ts": 1760941142272,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -1987,7 +1987,7 @@
         }
       },
       {
-        "ts": 1760863914728,
+        "ts": 1760941143334,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -1995,7 +1995,7 @@
         }
       },
       {
-        "ts": 1760863914728,
+        "ts": 1760941143334,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -2003,7 +2003,7 @@
         }
       },
       {
-        "ts": 1760863915786,
+        "ts": 1760941143874,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -2011,7 +2011,7 @@
         }
       },
       {
-        "ts": 1760863915786,
+        "ts": 1760941143874,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -2019,7 +2019,7 @@
         }
       },
       {
-        "ts": 1760863916716,
+        "ts": 1760941144436,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -2027,7 +2027,7 @@
         }
       },
       {
-        "ts": 1760863916716,
+        "ts": 1760941144436,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -2035,7 +2035,7 @@
         }
       },
       {
-        "ts": 1760863917320,
+        "ts": 1760941145021,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -2043,7 +2043,7 @@
         }
       },
       {
-        "ts": 1760863917320,
+        "ts": 1760941145021,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -2051,7 +2051,7 @@
         }
       },
       {
-        "ts": 1760863918349,
+        "ts": 1760941146272,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -2059,7 +2059,7 @@
         }
       },
       {
-        "ts": 1760863918349,
+        "ts": 1760941146272,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -2067,7 +2067,7 @@
         }
       },
       {
-        "ts": 1760863918842,
+        "ts": 1760941147557,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -2075,7 +2075,7 @@
         }
       },
       {
-        "ts": 1760863918842,
+        "ts": 1760941147557,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -2083,7 +2083,7 @@
         }
       },
       {
-        "ts": 1760863919339,
+        "ts": 1760941148508,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -2091,7 +2091,7 @@
         }
       },
       {
-        "ts": 1760863919339,
+        "ts": 1760941148508,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -2099,7 +2099,7 @@
         }
       },
       {
-        "ts": 1760863919878,
+        "ts": 1760941149500,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -2107,7 +2107,7 @@
         }
       },
       {
-        "ts": 1760863919878,
+        "ts": 1760941149500,
         "type": "api_call",
         "data": {
           "url": "https://api.hunter.io/v2/domain-search",
@@ -2115,7 +2115,7 @@
         }
       },
       {
-        "ts": 1760863920820,
+        "ts": 1760941150860,
         "type": "api_success",
         "data": {
           "provider": "hunter",
@@ -2123,14 +2123,14 @@
         }
       },
       {
-        "ts": 1760863920820,
+        "ts": 1760941150860,
         "type": "api_response",
         "data": {
           "enriched": 20
         }
       },
       {
-        "ts": 1760863920821,
+        "ts": 1760941150861,
         "type": "api_request",
         "data": {
           "tools": [
@@ -2145,14 +2145,14 @@
         }
       },
       {
-        "ts": 1760863920821,
+        "ts": 1760941150861,
         "type": "api_response",
         "data": {
           "augmented": 20
         }
       },
       {
-        "ts": 1760863920821,
+        "ts": 1760941150861,
         "type": "api_request",
         "data": {
           "tools": [
@@ -2174,7 +2174,7 @@
         }
       },
       {
-        "ts": 1760863920821,
+        "ts": 1760941150861,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2182,7 +2182,7 @@
         }
       },
       {
-        "ts": 1760863922634,
+        "ts": 1760941153329,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2190,7 +2190,7 @@
         }
       },
       {
-        "ts": 1760863923165,
+        "ts": 1760941153992,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2198,7 +2198,7 @@
         }
       },
       {
-        "ts": 1760863925219,
+        "ts": 1760941155866,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2206,7 +2206,7 @@
         }
       },
       {
-        "ts": 1760863926345,
+        "ts": 1760941156433,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2214,7 +2214,7 @@
         }
       },
       {
-        "ts": 1760863928077,
+        "ts": 1760941161499,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2222,7 +2222,7 @@
         }
       },
       {
-        "ts": 1760863928526,
+        "ts": 1760941162085,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2230,7 +2230,7 @@
         }
       },
       {
-        "ts": 1760863930363,
+        "ts": 1760941166933,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2238,7 +2238,7 @@
         }
       },
       {
-        "ts": 1760863930734,
+        "ts": 1760941167500,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2246,7 +2246,7 @@
         }
       },
       {
-        "ts": 1760863932484,
+        "ts": 1760941169376,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2254,7 +2254,7 @@
         }
       },
       {
-        "ts": 1760863932860,
+        "ts": 1760941169925,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2262,7 +2262,7 @@
         }
       },
       {
-        "ts": 1760863934572,
+        "ts": 1760941171712,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2270,7 +2270,7 @@
         }
       },
       {
-        "ts": 1760863934964,
+        "ts": 1760941172186,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2278,7 +2278,7 @@
         }
       },
       {
-        "ts": 1760863936892,
+        "ts": 1760941174994,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2286,7 +2286,7 @@
         }
       },
       {
-        "ts": 1760863937934,
+        "ts": 1760941175483,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2294,7 +2294,7 @@
         }
       },
       {
-        "ts": 1760863949658,
+        "ts": 1760941177466,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2302,7 +2302,7 @@
         }
       },
       {
-        "ts": 1760863950102,
+        "ts": 1760941177897,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2310,7 +2310,7 @@
         }
       },
       {
-        "ts": 1760863951868,
+        "ts": 1760941179847,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2318,7 +2318,7 @@
         }
       },
       {
-        "ts": 1760863952246,
+        "ts": 1760941180248,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2326,7 +2326,7 @@
         }
       },
       {
-        "ts": 1760863954095,
+        "ts": 1760941182401,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2334,7 +2334,7 @@
         }
       },
       {
-        "ts": 1760863954496,
+        "ts": 1760941182806,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2342,7 +2342,7 @@
         }
       },
       {
-        "ts": 1760863956582,
+        "ts": 1760941184674,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2350,7 +2350,7 @@
         }
       },
       {
-        "ts": 1760863957065,
+        "ts": 1760941185234,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2358,7 +2358,7 @@
         }
       },
       {
-        "ts": 1760863958805,
+        "ts": 1760941187107,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2366,7 +2366,7 @@
         }
       },
       {
-        "ts": 1760863959207,
+        "ts": 1760941187553,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2374,7 +2374,7 @@
         }
       },
       {
-        "ts": 1760863961122,
+        "ts": 1760941189507,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2382,7 +2382,7 @@
         }
       },
       {
-        "ts": 1760863961670,
+        "ts": 1760941189953,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2390,7 +2390,7 @@
         }
       },
       {
-        "ts": 1760863963452,
+        "ts": 1760941193155,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2398,7 +2398,7 @@
         }
       },
       {
-        "ts": 1760863963897,
+        "ts": 1760941193639,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2406,7 +2406,7 @@
         }
       },
       {
-        "ts": 1760863965663,
+        "ts": 1760941195635,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2414,7 +2414,7 @@
         }
       },
       {
-        "ts": 1760863966272,
+        "ts": 1760941196033,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2422,7 +2422,7 @@
         }
       },
       {
-        "ts": 1760863968143,
+        "ts": 1760941201670,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2430,7 +2430,7 @@
         }
       },
       {
-        "ts": 1760863968566,
+        "ts": 1760941202141,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2438,7 +2438,7 @@
         }
       },
       {
-        "ts": 1760863970567,
+        "ts": 1760941204041,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2446,7 +2446,7 @@
         }
       },
       {
-        "ts": 1760863970950,
+        "ts": 1760941204537,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2454,7 +2454,7 @@
         }
       },
       {
-        "ts": 1760863972627,
+        "ts": 1760941207596,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2462,7 +2462,7 @@
         }
       },
       {
-        "ts": 1760863973036,
+        "ts": 1760941208111,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2470,7 +2470,7 @@
         }
       },
       {
-        "ts": 1760863974833,
+        "ts": 1760941210010,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2478,7 +2478,7 @@
         }
       },
       {
-        "ts": 1760863975220,
+        "ts": 1760941210424,
         "type": "api_call",
         "data": {
           "provider": "builtwith",
@@ -2486,7 +2486,7 @@
         }
       },
       {
-        "ts": 1760863976953,
+        "ts": 1760941212572,
         "type": "api_success",
         "data": {
           "provider": "builtwith",
@@ -2494,28 +2494,28 @@
         }
       },
       {
-        "ts": 1760863977439,
+        "ts": 1760941213096,
         "type": "api_response",
         "data": {
           "intent_records": 20
         }
       },
       {
-        "ts": 1760863977440,
+        "ts": 1760941213097,
         "type": "reasoning",
         "data": {
           "note": "computing composite lead score"
         }
       },
       {
-        "ts": 1760863977440,
+        "ts": 1760941213097,
         "type": "intermediate",
         "data": {
           "ranked": 20
         }
       },
       {
-        "ts": 1760863977440,
+        "ts": 1760941213098,
         "type": "api_request",
         "data": {
           "tools": [
@@ -2530,35 +2530,35 @@
         }
       },
       {
-        "ts": 1760864004230,
+        "ts": 1760941239857,
         "type": "api_response",
         "data": {
           "verified": 3
         }
       },
       {
-        "ts": 1760864004231,
+        "ts": 1760941239857,
         "type": "reasoning",
         "data": {
           "note": "generating personalized emails"
         }
       },
       {
-        "ts": 1760864004231,
+        "ts": 1760941239857,
         "type": "intermediate",
         "data": {
           "messages": 3
         }
       },
       {
-        "ts": 1760864004231,
+        "ts": 1760941239858,
         "type": "api_request",
         "data": {
           "provider": "sendgrid"
         }
       },
       {
-        "ts": 1760864004231,
+        "ts": 1760941239858,
         "type": "api_response",
         "data": {
           "sent": 3,
@@ -2566,36 +2566,36 @@
         }
       },
       {
-        "ts": 1760864004232,
+        "ts": 1760941239858,
         "type": "api_request",
         "data": {
           "provider": "apollo",
-          "campaign_id": "cmp-1760864004"
+          "campaign_id": "cmp-1760941239"
         }
       },
       {
-        "ts": 1760864004232,
+        "ts": 1760941239858,
         "type": "api_response",
         "data": {
           "responses": 3
         }
       },
       {
-        "ts": 1760864004232,
+        "ts": 1760941239858,
         "type": "api_request",
         "data": {
           "sheets": true
         }
       },
       {
-        "ts": 1760864004232,
+        "ts": 1760941239858,
         "type": "api_response",
         "data": {
           "sheets_rows_written": 1
         }
       },
       {
-        "ts": 1760864004232,
+        "ts": 1760941239859,
         "type": "intermediate",
         "data": {
           "applied": false
@@ -2604,7 +2604,7 @@
     ],
     "prospect_search": [
       {
-        "ts": 1760863903884,
+        "ts": 1760941133645,
         "type": "step_start",
         "data": {
           "agent": "ProspectSearchAgent",
@@ -2616,10 +2616,10 @@
         }
       },
       {
-        "ts": 1760863904474,
+        "ts": 1760941134740,
         "type": "step_end",
         "data": {
-          "duration_ms": 589,
+          "duration_ms": 1095,
           "output_keys": [
             "leads"
           ]
@@ -2628,7 +2628,7 @@
     ],
     "pre_enrichment": [
       {
-        "ts": 1760863904475,
+        "ts": 1760941134741,
         "type": "step_start",
         "data": {
           "agent": "LLMPreEnrichmentAgent",
@@ -2639,7 +2639,7 @@
         }
       },
       {
-        "ts": 1760863904475,
+        "ts": 1760941134741,
         "type": "step_end",
         "data": {
           "duration_ms": 0,
@@ -2652,7 +2652,7 @@
     ],
     "enrichment": [
       {
-        "ts": 1760863904475,
+        "ts": 1760941134741,
         "type": "step_start",
         "data": {
           "agent": "DataEnrichmentAgent",
@@ -2662,10 +2662,10 @@
         }
       },
       {
-        "ts": 1760863920820,
+        "ts": 1760941150860,
         "type": "step_end",
         "data": {
-          "duration_ms": 16344,
+          "duration_ms": 16118,
           "output_keys": [
             "enriched_leads"
           ]
@@ -2674,7 +2674,7 @@
     ],
     "third_party_enrichment": [
       {
-        "ts": 1760863920821,
+        "ts": 1760941150861,
         "type": "step_start",
         "data": {
           "agent": "ThirdPartyEnrichmentAgent",
@@ -2684,7 +2684,7 @@
         }
       },
       {
-        "ts": 1760863920821,
+        "ts": 1760941150861,
         "type": "step_end",
         "data": {
           "duration_ms": 0,
@@ -2696,7 +2696,7 @@
     ],
     "intent_signals": [
       {
-        "ts": 1760863920821,
+        "ts": 1760941150861,
         "type": "step_start",
         "data": {
           "agent": "AnonymizedIntentSignalAgent",
@@ -2707,10 +2707,10 @@
         }
       },
       {
-        "ts": 1760863977439,
+        "ts": 1760941213096,
         "type": "step_end",
         "data": {
-          "duration_ms": 56617,
+          "duration_ms": 62234,
           "output_keys": [
             "intent_signals"
           ]
@@ -2719,7 +2719,7 @@
     ],
     "scoring": [
       {
-        "ts": 1760863977440,
+        "ts": 1760941213097,
         "type": "step_start",
         "data": {
           "agent": "ScoringAgent",
@@ -2731,7 +2731,7 @@
         }
       },
       {
-        "ts": 1760863977440,
+        "ts": 1760941213097,
         "type": "step_end",
         "data": {
           "duration_ms": 0,
@@ -2743,7 +2743,7 @@
     ],
     "email_verification": [
       {
-        "ts": 1760863977440,
+        "ts": 1760941213098,
         "type": "step_start",
         "data": {
           "agent": "EmailVerificationAgent",
@@ -2753,10 +2753,10 @@
         }
       },
       {
-        "ts": 1760864004230,
+        "ts": 1760941239857,
         "type": "step_end",
         "data": {
-          "duration_ms": 26790,
+          "duration_ms": 26759,
           "output_keys": [
             "verified_leads"
           ]
@@ -2765,7 +2765,7 @@
     ],
     "outreach_content": [
       {
-        "ts": 1760864004231,
+        "ts": 1760941239857,
         "type": "step_start",
         "data": {
           "agent": "OutreachContentAgent",
@@ -2777,7 +2777,7 @@
         }
       },
       {
-        "ts": 1760864004231,
+        "ts": 1760941239857,
         "type": "step_end",
         "data": {
           "duration_ms": 0,
@@ -2789,7 +2789,7 @@
     ],
     "send": [
       {
-        "ts": 1760864004231,
+        "ts": 1760941239858,
         "type": "step_start",
         "data": {
           "agent": "OutreachExecutorAgent",
@@ -2799,7 +2799,7 @@
         }
       },
       {
-        "ts": 1760864004231,
+        "ts": 1760941239858,
         "type": "step_end",
         "data": {
           "duration_ms": 0,
@@ -2812,7 +2812,7 @@
     ],
     "response_tracking": [
       {
-        "ts": 1760864004232,
+        "ts": 1760941239858,
         "type": "step_start",
         "data": {
           "agent": "ResponseTrackerAgent",
@@ -2822,7 +2822,7 @@
         }
       },
       {
-        "ts": 1760864004232,
+        "ts": 1760941239858,
         "type": "step_end",
         "data": {
           "duration_ms": 0,
@@ -2834,7 +2834,7 @@
     ],
     "feedback_trainer": [
       {
-        "ts": 1760864004232,
+        "ts": 1760941239858,
         "type": "step_start",
         "data": {
           "agent": "FeedbackTrainerAgent",
@@ -2844,7 +2844,7 @@
         }
       },
       {
-        "ts": 1760864004232,
+        "ts": 1760941239858,
         "type": "step_end",
         "data": {
           "duration_ms": 0,
@@ -2858,7 +2858,7 @@
     ],
     "feedback_apply": [
       {
-        "ts": 1760864004232,
+        "ts": 1760941239859,
         "type": "step_start",
         "data": {
           "agent": "FeedbackApplyAgent",
@@ -2871,7 +2871,7 @@
         }
       },
       {
-        "ts": 1760864004232,
+        "ts": 1760941239859,
         "type": "step_end",
         "data": {
           "duration_ms": 0,

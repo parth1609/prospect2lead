@@ -2,10 +2,10 @@
   "leads": [
     {
       "id": 1,
-      "company": "TechFlow",
-      "contact_name": "Sarah Johnson",
-      "email": "sarah.johnson@techflow.com",
-      "domain": "techflow.com",
+      "company": "DataVault Inc",
+      "contact_name": "Mike Chen",
+      "email": "mike.chen@datavault.io",
+      "domain": "datavault.io",
       "role": "Unknown",
       "linkedin": "",
       "signal": "recent_funding",
@@ -18,10 +18,10 @@
     },
     {
       "id": 2,
-      "company": "DataVault Inc",
-      "contact_name": "Mike Chen",
-      "email": "mike.chen@datavault.io",
-      "domain": "datavault.io",
+      "company": "CloudSync Pro",
+      "contact_name": "Jessica Rodriguez",
+      "email": "jessica.rodriguez@cloudsync.co",
+      "domain": "cloudsync.co",
       "role": "Unknown",
       "linkedin": "",
       "signal": "recent_funding",
@@ -66,6 +66,22 @@
     },
     {
       "id": 5,
+      "company": "SalesBoost AI",
+      "contact_name": "Lisa Wang",
+      "email": "lisa.wang@salesboost.ai",
+      "domain": "salesboost.ai",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "recent_funding",
+      "score": 3.46,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 6,
       "company": "Leadgenpro",
       "contact_name": "Tom Anderson",
       "email": "tom.anderson@leadgenpro.com",
@@ -81,7 +97,7 @@
       "status": "active"
     },
     {
-      "id": 6,
+      "id": 7,
       "company": "PipelinePlus",
       "contact_name": "Alex Turner",
       "email": "alex.turner@pipelineplus.io",
@@ -97,7 +113,23 @@
       "status": "active"
     },
     {
-      "id": 7,
+      "id": 8,
+      "company": "MarketEdge",
+      "contact_name": "Maria Garcia",
+      "email": "maria.garcia@marketedge.com",
+      "domain": "marketedge.com",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "recent_funding",
+      "score": 3.46,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 9,
       "company": "SaaS Dynamics",
       "contact_name": "Chris Lee",
       "email": "chris.lee@saasdynamics.io",
@@ -113,11 +145,11 @@
       "status": "active"
     },
     {
-      "id": 8,
-      "company": "RevenueMax",
-      "contact_name": "Kevin Wilson",
-      "email": "kevin.wilson@revenuemax.com",
-      "domain": "revenuemax.com",
+      "id": 10,
+      "company": "Autoscale.ai",
+      "contact_name": "Rachel Davis",
+      "email": "rachel.davis@autoscale.ai",
+      "domain": "autoscale.ai",
       "role": "Unknown",
       "linkedin": "",
       "signal": "recent_funding",
@@ -129,7 +161,23 @@
       "status": "active"
     },
     {
-      "id": 9,
+      "id": 11,
+      "company": "DataDriven",
+      "contact_name": "Emily Carter",
+      "email": "emily.carter@datadriven.com",
+      "domain": "datadriven.com",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "recent_funding",
+      "score": 3.46,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 12,
       "company": "Flowstate",
       "contact_name": "Michelle Liu",
       "email": "michelle.liu@flowstate.co",
@@ -145,11 +193,27 @@
       "status": "active"
     },
     {
-      "id": 10,
-      "company": "CloudSync Pro",
-      "contact_name": "Jessica Rodriguez",
-      "email": "jessica.rodriguez@cloudsync.co",
-      "domain": "cloudsync.co",
+      "id": 13,
+      "company": "GrowthPath",
+      "contact_name": "Brandon Scott",
+      "email": "brandon.scott@growthpath.io",
+      "domain": "growthpath.io",
+      "role": "Unknown",
+      "linkedin": "",
+      "signal": "recent_funding",
+      "score": 3.46,
+      "grade": "D",
+      "technologies": [
+        "Unknown"
+      ],
+      "status": "active"
+    },
+    {
+      "id": 14,
+      "company": "TechFlow",
+      "contact_name": "Sarah Johnson",
+      "email": "sarah.johnson@techflow.com",
+      "domain": "techflow.com",
       "role": "Unknown",
       "linkedin": "",
       "signal": "hiring_for_sales",
@@ -161,7 +225,7 @@
       "status": "active"
     },
     {
-      "id": 11,
+      "id": 15,
       "company": "RevOps Labs",
       "contact_name": "Ryan Murphy",
       "email": "ryan.murphy@revopslabs.io",
@@ -177,23 +241,7 @@
       "status": "active"
     },
     {
-      "id": 12,
-      "company": "SalesBoost AI",
-      "contact_name": "Lisa Wang",
-      "email": "lisa.wang@salesboost.ai",
-      "domain": "salesboost.ai",
-      "role": "Unknown",
-      "linkedin": "",
-      "signal": "hiring_for_sales",
-      "score": 2.56,
-      "grade": "D",
-      "technologies": [
-        "Unknown"
-      ],
-      "status": "active"
-    },
-    {
-      "id": 13,
+      "id": 16,
       "company": "ConvertFlow",
       "contact_name": "Nicole Brown",
       "email": "nicole.brown@convertflow.co",
@@ -209,11 +257,11 @@
       "status": "active"
     },
     {
-      "id": 14,
-      "company": "MarketEdge",
-      "contact_name": "Maria Garcia",
-      "email": "maria.garcia@marketedge.com",
-      "domain": "marketedge.com",
+      "id": 17,
+      "company": "RevenueMax",
+      "contact_name": "Kevin Wilson",
+      "email": "kevin.wilson@revenuemax.com",
+      "domain": "revenuemax.com",
       "role": "Unknown",
       "linkedin": "",
       "signal": "hiring_for_sales",
@@ -225,23 +273,7 @@
       "status": "active"
     },
     {
-      "id": 15,
-      "company": "Autoscale.ai",
-      "contact_name": "Rachel Davis",
-      "email": "rachel.davis@autoscale.ai",
-      "domain": "autoscale.ai",
-      "role": "Unknown",
-      "linkedin": "",
-      "signal": "hiring_for_sales",
-      "score": 2.56,
-      "grade": "D",
-      "technologies": [
-        "Unknown"
-      ],
-      "status": "active"
-    },
-    {
-      "id": 16,
+      "id": 18,
       "company": "GrowthHacker Co",
       "contact_name": "Amy Zhang",
       "email": "amy.zhang@growthhacker.co",
@@ -257,7 +289,7 @@
       "status": "active"
     },
     {
-      "id": 17,
+      "id": 19,
       "company": "Cloudfirst",
       "contact_name": "Daniel Taylor",
       "email": "daniel.taylor@cloudfirst.io",
@@ -273,43 +305,11 @@
       "status": "active"
     },
     {
-      "id": 18,
-      "company": "DataDriven",
-      "contact_name": "Emily Carter",
-      "email": "emily.carter@datadriven.com",
-      "domain": "datadriven.com",
-      "role": "Unknown",
-      "linkedin": "",
-      "signal": "hiring_for_sales",
-      "score": 2.56,
-      "grade": "D",
-      "technologies": [
-        "Unknown"
-      ],
-      "status": "active"
-    },
-    {
-      "id": 19,
+      "id": 20,
       "company": "ScaleTech",
       "contact_name": "Jason Park",
       "email": "jason.park@scaletech.ai",
       "domain": "scaletech.ai",
-      "role": "Unknown",
-      "linkedin": "",
-      "signal": "hiring_for_sales",
-      "score": 2.56,
-      "grade": "D",
-      "technologies": [
-        "Unknown"
-      ],
-      "status": "active"
-    },
-    {
-      "id": 20,
-      "company": "GrowthPath",
-      "contact_name": "Brandon Scott",
-      "email": "brandon.scott@growthpath.io",
-      "domain": "growthpath.io",
       "role": "Unknown",
       "linkedin": "",
       "signal": "hiring_for_sales",
@@ -331,9 +331,9 @@
       "C": 0,
       "D": 20
     },
-    "avg_score": 2.96
+    "avg_score": 3.15
   },
-  "timestamp": "2025-10-19T14:28:47.070973",
+  "timestamp": "2025-10-20T11:53:41.034218",
   "config": {
     "workflow_name": "OutboundLeadGeneration",
     "target_count": 20,
