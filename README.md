@@ -45,18 +45,21 @@ NEWS_API_KEY=your_newsapi_key
 ### 3. Run the Workflow
 
 **Option A: LangGraph Runner (Recommended)**
-```bash
-python graph_runner.py --workflow single_workflow.json --visualize
+```powershell
+python runners/graph_runner.py --workflow workflows/single_workflow.json --output outputs/multi_leads_output.json --visualize
 ```
 
 **Option B: Sequential Runner (Simple)**
-```bash
-python langgraph_builder.py --workflow single_workflow.json
+```powershell
+print("  Run with simple runner:")
+print("    python runners/langgraph_builder.py --workflow workflows/single_workflow.json")
+print("  Run with LangGraph:")
+print("    python runners/graph_runner.py --workflow workflows/single_workflow.json --visualize")
 ```
 
 **Option C: Compare Both**
-```bash
-python compare_runners.py --workflow single_workflow.json
+```powershell
+python runners/compare_runners.py --workflow workflows/single_workflow.json
 ```
 
 ## 📊 Key Features
@@ -85,31 +88,47 @@ python compare_runners.py --workflow single_workflow.json
 - **Human Approval**: Optional manual review before config changes
 - **Google Sheets**: Campaign data logging for analysis
 
-## 📁 File Structure
+## 📁 Project Structure
 
 ```
 prospect2lead workflow/
-├── single_workflow.json      # Workflow configuration
-├── .env                      # API keys (create this)
-├── graph_runner.py          # LangGraph implementation
-├── langgraph_builder.py     # Sequential runner
-├── compare_runners.py       # Performance comparison
-├── setup_langgraph.py       # Setup and validation
-├── agents/                  # Agent implementations
-│   ├── __init__.py         # Agent registry
-│   ├── base.py             # Base agent class
-│   ├── utils.py            # Logging utilities
-│   ├── prospect_search.py   # Clay/Apollo integration
-│   ├── enrichment.py       # Hunter domain search
-│   ├── intent_signals.py   # BuiltWith/NewsAPI
-│   ├── scoring.py          # ICP scoring logic
-│   ├── email_verification.py # Hunter email verify
-│   ├── outreach_content.py # LLM messaging
-│   ├── outreach_executor.py # SendGrid/Apollo send
-│   ├── response_tracker.py # Response monitoring
-│   ├── feedback_trainer.py # Performance analysis
-│   └── feedback_apply.py   # Config optimization
-└── requirements.txt        # Python dependencies
+├── workflows/                    # Workflow configuration files
+│   ├── single_workflow.json     # Main workflow (100 leads)
+│   └── workflow_50_leads.json   # Alternative workflow (50 leads)
+├── runners/                     # Workflow execution scripts
+│   ├── graph_runner.py          # LangGraph implementation
+│   ├── langgraph_builder.py     # Sequential runner
+│   ├── compare_runners.py       # Performance comparison
+│   └── traced_graph_runner.py   # Runner with live tracing
+├── utils/                       # Utility and helper scripts
+│   ├── simple_output_formatter.py # JSON formatter
+│   └── storage_manager.py       # Database/storage management
+├── dashboard/                   # Real-time dashboard
+│   ├── realtime_dashboard.py    # Flask dashboard server
+│   ├── demo_live_tracing.py     # Demo with live traces
+│   └── templates/               # HTML templates
+├── config/                      # Configuration and setup
+│   ├── setup_langgraph.py       # Environment setup
+│   ├── requirements.txt         # Python dependencies
+│   └── .env                     # API keys (create this)
+├── agents/                      # Agent implementations
+│   ├── __init__.py             # Agent registry
+│   ├── base.py                 # Base agent class
+│   ├── utils.py                # Logging utilities
+│   ├── prospect_search.py       # Clay/Apollo integration
+│   ├── enrichment.py           # Hunter domain search
+│   ├── intent_signals.py       # BuiltWith/NewsAPI
+│   ├── scoring.py              # ICP scoring logic
+│   ├── email_verification.py   # Hunter email verify
+│   ├── outreach_content.py     # LLM messaging
+│   ├── outreach_executor.py    # SendGrid/Apollo send
+│   ├── response_tracker.py     # Response monitoring
+│   ├── feedback_trainer.py     # Performance analysis
+│   └── feedback_apply.py       # Config optimization
+├── outputs/                     # Generated output files
+│   └── langgraph_output_graph.mmd # Graph visualization
+└── docs/                       # Documentation
+    └── README.md               # This file
 ```
 
 ## 🔧 Configuration
@@ -192,3 +211,133 @@ The system is designed for extensibility:
 ## 📝 License
 
 This implementation is for educational and development purposes.
+
+---
+
+## ✅ Step-by-Step Run Guide (Windows)
+
+All files and outputs live in this folder: `c:\Users\parth\OneDrive\Desktop\one\prospect2lead workflow\`.
+
+### 0) Prerequisites
+
+```text
+- Windows 10/11 (PowerShell)
+- Python 3.10+ (64-bit) available on PATH
+- Internet access for API calls
+- .env file in this folder with required keys:
+  GROQ_API_KEY, CLAY_API_KEY, APOLLO_API_KEY, PDL_API_KEY, HUNTER_API_KEY,
+  SHEET_ID (optional), BUILTWITH_API_KEY, NEWS_API_KEY, SENDGRID_API_KEY
+```
+
+Optional (for Google Sheets logging): a Service Account JSON and a sheet shared with that service account email.
+
+### 1) Environment Setup (one-time)
+
+From `c:\Users\parth\OneDrive\Desktop\one\prospect2lead workflow\`:
+
+```powershell
+# (Optional) Create and activate a virtual environment
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+
+# Core dependencies and validation
+python config/setup_langgraph.py
+
+# Dashboard dependencies (real-time tracing)
+python config/setup_dashboard.py
+```
+
+If you prefer manual installs: `pip install -r config/requirements.txt` and `pip install flask flask-socketio eventlet`.
+
+### 2) Run the Lead Generation Workflow (raw output + graph)
+
+Generates raw workflow output and a graph visualization.
+
+```powershell
+python runners/graph_runner.py --workflow workflows/single_workflow.json --output outputs/multi_leads_output.json --visualize
+```
+
+Outputs written to this folder:
+- `outputs/multi_leads_output.json` – full workflow results and logs
+- `outputs/langgraph_output_graph.mmd` – graph visualization (Mermaid)
+
+Tip: Adjust how many leads to target by editing `workflows/single_workflow.json` at `steps[].inputs.target_count` (default currently set to 100).
+
+### 3) Convert to Simple JSON (CRM-ready, 50+ leads)
+
+Converts the raw output to a minimal, clean format for easy consumption.
+
+```powershell
+python utils/simple_output_formatter.py
+```
+
+Outputs:
+- `outputs/simple_leads_output.json` – compact leads format (id, company, contact_name, email, domain, role, signal, score, grade)
+
+Note: By default the formatter reads `outputs/multi_leads_output.json`. Ensure step 2 used that output filename.
+
+### 4) End-to-End Run with Storage, Email, Sheets, and Summary (optional)
+
+Runs the full integrated pipeline and produces a complete summary.
+
+```powershell
+python runners/integrated_runner.py --workflow workflows/single_workflow.json --campaign "MyCampaign"
+```
+
+Outputs:
+- `outputs/MyCampaign_raw.json` – raw workflow output
+- `outputs/MyCampaign_simple.json` – simple leads JSON
+- `outputs/MyCampaign_summary.json` – campaign metrics, next steps, API usage
+- `outputs/workflow_memory.db` – SQLite DB (leads, campaigns, email logs)
+- `outputs/api_usage.json` – free-tier usage tracking
+- `outputs/sheets_fallback_logs.json` – local log if Google Sheets creds not provided
+
+Email delivery (SendGrid/Apollo) sends only if API keys are present and free-tier usage allows.
+
+### 5) Real-Time API Tracing Dashboard (optional)
+
+See live API call traces, step progress, and success rates while the workflow runs.
+
+```powershell
+# Start the dashboard and run the workflow with tracing
+python runners/traced_graph_runner.py --workflow workflows/single_workflow.json
+
+# OR demo live tracing only
+python dashboard/demo_live_tracing.py
+```
+
+Dashboard URL: `http://localhost:5000`
+
+You’ll see:
+- Workflow status and step progress
+- Active/total API calls and success rate
+- Live trace feed (api_call_start, api_call_complete, errors)
+
+### 6) Larger Batches (optional)
+
+Example workflow preconfigured for 50 leads:
+
+```powershell
+python runners/graph_runner.py --workflow workflows/workflow_50_leads.json --output outputs/leads_50_raw.json
+```
+
+Then convert to simple format if desired:
+
+```powershell
+python utils/simple_output_formatter.py
+```
+
+### 7) Where to Find Outputs (summary)
+
+All outputs are created in `c:\Users\parth\OneDrive\Desktop\one\prospect2lead workflow\outputs\`:
+- Raw outputs: `multi_leads_output.json`, `*_raw.json`
+- Simple outputs: `simple_leads_output.json`, `*_simple.json`
+- Summaries: `*_summary.json`
+- Visualization: `langgraph_output_graph.mmd`
+- Storage/Logs: `workflow_memory.db`, `api_usage.json`, `sheets_fallback_logs.json`
+
+### 8) Troubleshooting Quick Checks
+
+- **No live traces on dashboard**: Ensure `python config/setup_dashboard.py` ran and visit `http://localhost:5000`. Use `runners/traced_graph_runner.py` to execute with tracing.
+- **No leads in simple JSON**: Confirm step 2 wrote `outputs/multi_leads_output.json` before running the formatter.
+- **API calls failing**: Verify `config/.env` keys and network; check `api_error` events in the output JSON.
